@@ -1,0 +1,77 @@
+.main__titulo_button {
+  margin-top: 2rem;
+}
+
+.main__productos {
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 3rem;
+  justify-content: center;
+}
+
+.main__productos_card {
+  position: relative;
+  width: 45%;
+
+}
+
+.main__productos_card_imagen {
+  cursor: pointer;
+  border-radius: 10px;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  box-shadow: 4px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 4px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  transition: all 500ms ease-in;
+}
+
+.main__prductos_card_imagen-botones {
+  position: absolute;
+
+  top: 20px;
+  right: 10px;
+}
+
+.main__prductos_card_imagen-botones>svg {
+  margin: 0 0.3rem;
+  cursor: pointer;
+}
+
+.main__prductos_card_imagen-botones>svg:nth-of-type(1):hover {
+  filter: invert(75%) sepia(80%) saturate(439%) hue-rotate(300deg) brightness(100%) contrast(200%);
+
+
+}
+
+.main__prductos_card_imagen-botones>svg:nth-of-type(2):hover {
+  filter: invert(75%) sepia(80%) saturate(439%) hue-rotate(150deg) brightness(100%) contrast(111%);
+
+
+}
+
+.main__productos_card>p {
+  margin: 0.5rem 0;
+
+}
+
+@media screen and (min-width:480px) {
+
+  .main__productos_card {
+
+    width: 20%;
+
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .main__productos_card {
+
+    width: 15%;
+
+  }
+}

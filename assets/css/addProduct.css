@@ -1,0 +1,51 @@
+.header__boton-admin {
+  padding-top: 7px;
+}
+
+.form__add_product {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100vw;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+
+
+.form__add_area,
+.form__add_input {
+  width: 80%;
+  height: auto;
+  padding: 0 0.5rem;
+}
+
+.form__add_input {
+  height: 1.5rem;
+}
+
+.form__add_button {
+  padding: 1rem 2rem;
+}
+
+@media screen and (min-width:480px) {
+
+  .form__add_area,
+  .form__add_input {
+    width: 60%;
+
+  }
+}
+
+@media screen and (min-width:1024px) {
+
+  .form__add_area,
+  .form__add_input {
+    width: 40%;
+
+  }
+
+  .form__add_input {
+    height: 2rem;
+  }
+}
