@@ -4,58 +4,58 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="./assets/css/index.css" />
-    <title>E-Commerce</title>
+
+    <link rel="stylesheet" href="./assets/css/addProduct.css" />
+    <title>E-commerce - Editar Producto</title>
   </head>
   <body>
     <header class="wave">
       <div class="header__logo">
-        <img class="header__logo-img" src="./assets/img/logo1.png" alt="" />
+        <a href="./index.html"
+          ><img class="header__logo-img" src="./assets/img/logo1.png" alt=""
+        /></a>
         <span>Tecno-express</span>
       </div>
-      <div class="header__right">
-        <input
-          type="search"
-          class="header__search-input"
-          placeholder="¿Que desea buscar?"
-        /><img
-          class="header__search-input-ico"
-          src="./assets/img/search.png"
-          alt=""
-        />
-        <a class="header__login" href="./login.html">Login</a>
-        <img class="header__search-ico" src="./assets/img/search.png" alt="" />
-      </div>
+      <button class="header__boton-admin">Menú Administrador</button>
     </header>
     <main>
-      <section class="presentacion">
-        <h2>Febrero Promocional</h2>
-        <h5>Productos seleccionados con hasta un 33% de descuento</h5>
-        <button class="presentacion__button">Ver Consolas</button>
-      </section>
-      <section class="main__linea">
-        <header class="main__linea_header">
-          <h3>Star Wars</h3>
-          <a href="#">Ver todo -></a>
-        </header>
-        <div class="main__linea_contenido" id="starWar__contenido"></div>
-      </section>
-      <section class="main__linea" id="varios">
-        <header class="main__linea_header">
-          <h3>Varios</h3>
-          <a href="#">Ver todo -></a>
-        </header>
-        <div class="main__linea_contenido" id="varios__contenido"></div>
-      </section>
-      <section class="main__linea">
-        <header class="main__linea_header">
-          <h3>Consolas</h3>
-          <a href="#">Ver todo -></a>
-        </header>
-        <div class="main__linea_contenido" id="consolas__contenido"></div>
-      </section>
+      <h2>Agregar nuevo producto</h2>
+      <form class="form__add_product" id="formulario">
+        <input
+          type="text"
+          name="imagen"
+          id="imagen"
+          class="form__add_input"
+          placeholder="URL de la imagen"
+        /><input
+          type="text"
+          name="categoria"
+          id="categoria"
+          class="form__add_input"
+          placeholder="Categoría"
+        /><input
+          type="text"
+          name="nombre"
+          id="nombre"
+          class="form__add_input"
+          placeholder="Nombre del producto"
+        /><input
+          type="text"
+          name="precio"
+          id="precio"
+          class="form__add_input"
+          placeholder="Precio del producto"
+        /><textarea
+          name="descripcion"
+          id="descripcion"
+          cols="30"
+          rows="10"
+          class="form__add_area"
+          placeholder="Descripción del producto"
+        ></textarea
+        ><button type="submit" class="form__add_button">Editar Producto</button>
+      </form>
     </main>
     <footer>
       <div class="footer__conten">
@@ -80,7 +80,7 @@
               name="Mensaje"
               placeholder="Escribe tu mensaje"
             />
-            <button type="submit">Enviar Mensaje</button>
+            <button>Enviar Mensaje</button>
           </form>
         </div>
       </div>
@@ -97,6 +97,12 @@
         <a href="https://www.github.com/rafaric">Github</a>
       </div>
     </footer>
-    <script src="./service/productos-service.js"></script>
+    <script src="./service/editarproducto.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"
+      integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
   </body>
 </html>

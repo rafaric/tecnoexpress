@@ -1,0 +1,145 @@
+{
+  "StarWars": [
+    {
+      "imagen": "../assets/img/unsplash:1VV1MRafd7A.png",
+      "nombre": "Darth Lord",
+      "categoria": "StarWars",
+      "precio": "550",
+      "descripcion": "Laboris tempor veniam commodo ut voluptate adipisicing est velit reprehenderit esse. Non aute cillum nisi dolor eu esse do velit non aliqua consectetur occaecat cupidatat. Deserunt sint cillum do duis duis. Consectetur id dolor nostrud qui laboris mollit elit consequat incididunt laboris velit. Ad enim minim cillum qui enim cillum nostrud nisi commodo aliquip non. Eu nulla duis consectetur commodo sunt nostrud est labore anim et ea aliqua aliqua magna.",
+      "id": 1
+    },
+    {
+      "imagen": "../assets/img/unsplash:4OHkK555s1A.png",
+      "nombre": "Throoper",
+      "categoria": "StarWars",
+      "precio": "568.5",
+      "descripcion": "Laboris tempor veniam commodo ut voluptate adipisicing est velit reprehenderit esse. Non aute cillum nisi dolor eu esse do velit non aliqua consectetur occaecat cupidatat. ",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "nombre": "Taza Throoper",
+      "descripcion": "Laboris tempor veniam commodo ut voluptate adipisicing est velit reprehenderit esse. Non aute cillum nisi dolor eu esse do velit non aliqua consectetur occaecat cupidatat. Deserunt sint cillum do duis duis. Consectetur id dolor nostrud qui laboris mollit elit consequat incididunt laboris velit. Ad enim minim cillum qui enim cillum nostrud nisi commodo aliquip non. Eu nulla duis consectetur commodo sunt nostrud est labore anim et ea aliqua aliqua magna.",
+      "imagen": "../assets/img/unsplash:6FDXGY9J6y4.png",
+      "precio": 86
+    },
+    {
+      "id": 4,
+      "nombre": "Darth Vader Heads",
+      "descripcion": "Laboris tempor veniam commodo ut voluptate adipisicing est velit reprehenderit esse. Non aute cillum nisi dolor eu esse do velit non aliqua consectetur occaecat cupidatat. Deserunt sint cillum do duis duis. Consectetur id dolor nostrud qui laboris mollit elit consequat incididunt laboris velit. Ad enim minim cillum qui enim cillum nostrud nisi commodo aliquip non. Eu nulla duis consectetur commodo sunt nostrud est labore anim et ea aliqua aliqua magna.",
+      "imagen": "../assets/img/unsplash:epRFE_hBNjo.png",
+      "precio": 50
+    },
+    {
+      "id": 5,
+      "nombre": "Yoda",
+      "descripcion": "Laboris tempor veniam commodo ut voluptate adipisicing est velit reprehenderit esse. Non aute cillum nisi dolor eu esse do velit non aliqua consectetur occaecat cupidatat. Deserunt sint cillum do duis duis. Consectetur id dolor nostrud qui laboris mollit elit consequat incididunt laboris velit. Ad enim minim cillum qui enim cillum nostrud nisi commodo aliquip non. Eu nulla duis consectetur commodo sunt nostrud est labore anim et ea aliqua aliqua magna.",
+      "imagen": "../assets/img/unsplash:KeGToDVN0l4.png",
+      "precio": 120
+    },
+    {
+      "id": 6,
+      "nombre": "Grogu",
+      "descripcion": "Laboris tempor veniam commodo ut voluptate adipisicing est velit reprehenderit esse. Non aute cillum nisi dolor eu esse do velit non aliqua consectetur occaecat cupidatat. Deserunt sint cillum do duis duis. Consectetur id dolor nostrud qui laboris mollit elit consequat incididunt laboris velit. Ad enim minim cillum qui enim cillum nostrud nisi commodo aliquip non. Eu nulla duis consectetur commodo sunt nostrud est labore anim et ea aliqua aliqua magna.",
+      "imagen": "../assets/img/unsplash:R8L1l9RN198.png",
+      "precio": 150
+    },
+    {
+      "imagen": "../assets/img/unsplash:4OHkK555s1A.png",
+      "nombre": "Throoper",
+      "categoria": "StarWars",
+      "precio": "568.5",
+      "descripcion": "Laboris tempor veniam commodo ut voluptate adipisicing est velit reprehenderit esse. Non aute cillum nisi dolor eu ",
+      "id": 7
+    }
+  ],
+  "Consolas": [
+    {
+      "id": 7,
+      "nombre": "xbox",
+      "descripcion": "Laboris tempor veniam commodo ut voluptate adipisicing est velit reprehenderit esse. Non aute cillum nisi dolor eu esse do velit non aliqua consectetur occaecat cupidatat. Deserunt sint cillum do duis duis. Consectetur id dolor nostrud qui laboris mollit elit consequat incididunt laboris velit. Ad enim minim cillum qui enim cillum nostrud nisi commodo aliquip non. Eu nulla duis consectetur commodo sunt nostrud est labore anim et ea aliqua aliqua magna.",
+      "imagen": "../assets/img/unsplash:Zjn4dT993-g.png",
+      "precio": 950
+    },
+    {
+      "id": 8,
+      "nombre": "Mando X-box",
+      "descripcion": "Laboris tempor veniam commodo ut voluptate adipisicing est velit reprehenderit esse. Non aute cillum nisi dolor eu esse do velit non aliqua consectetur occaecat cupidatat. Deserunt sint cillum do duis duis. Consectetur id dolor nostrud qui laboris mollit elit consequat incididunt laboris velit. Ad enim minim cillum qui enim cillum nostrud nisi commodo aliquip non. Eu nulla duis consectetur commodo sunt nostrud est labore anim et ea aliqua aliqua magna.",
+      "imagen": "../assets/img/unsplash:0POwK6iAiRQ.png",
+      "precio": 245
+    },
+    {
+      "id": 9,
+      "nombre": "Ps5",
+      "descripcion": "Laboris tempor veniam commodo ut voluptate adipisicing est velit reprehenderit esse. Non aute cillum nisi dolor eu esse do velit non aliqua consectetur occaecat cupidatat. Deserunt sint cillum do duis duis. Consectetur id dolor nostrud qui laboris mollit elit consequat incididunt laboris velit. Ad enim minim cillum qui enim cillum nostrud nisi commodo aliquip non. Eu nulla duis consectetur commodo sunt nostrud est labore anim et ea aliqua aliqua magna.",
+      "imagen": "../assets/img/unsplash:caNzzoxls8Q.png",
+      "precio": 1200
+    },
+    {
+      "id": 10,
+      "nombre": "Game Boy - Advance",
+      "descripcion": "Laboris tempor veniam commodo ut voluptate adipisicing est velit reprehenderit esse. Non aute cillum nisi dolor eu esse do velit non aliqua consectetur occaecat cupidatat. Deserunt sint cillum do duis duis. Consectetur id dolor nostrud qui laboris mollit elit consequat incididunt laboris velit. Ad enim minim cillum qui enim cillum nostrud nisi commodo aliquip non. Eu nulla duis consectetur commodo sunt nostrud est labore anim et ea aliqua aliqua magna.",
+      "imagen": "../assets/img/unsplash:k-xYhI3-gJM.png",
+      "precio": 690
+    },
+    {
+      "id": 11,
+      "nombre": "Nintendo Switch",
+      "descripcion": "Laboris tempor veniam commodo ut voluptate adipisicing est velit reprehenderit esse. Non aute cillum nisi dolor eu esse do velit non aliqua consectetur occaecat cupidatat. Deserunt sint cillum do duis duis. Consectetur id dolor nostrud qui laboris mollit elit consequat incididunt laboris velit. Ad enim minim cillum qui enim cillum nostrud nisi commodo aliquip non. Eu nulla duis consectetur commodo sunt nostrud est labore anim et ea aliqua aliqua magna.",
+      "imagen": "../assets/img/unsplash:wa5z9o9fgjw.png",
+      "precio": 545
+    },
+    {
+      "id": 12,
+      "nombre": "Super Nintendo",
+      "descripcion": "Laboris tempor veniam commodo ut voluptate adipisicing est velit reprehenderit esse. Non aute cillum nisi dolor eu esse do velit non aliqua consectetur occaecat cupidatat. Deserunt sint cillum do duis duis. Consectetur id dolor nostrud qui laboris mollit elit consequat incididunt laboris velit. Ad enim minim cillum qui enim cillum nostrud nisi commodo aliquip non. Eu nulla duis consectetur commodo sunt nostrud est labore anim et ea aliqua aliqua magna.",
+      "imagen": "../assets/img/unsplash:ZV7lnfyQLmA.png",
+      "precio": 500
+    }
+  ],
+  "Varios": [
+    {
+      "id": 13,
+      "nombre": "Super Mando",
+      "descripcion": "Laboris tempor veniam commodo ut voluptate adipisicing est velit reprehenderit esse. Non aute cillum nisi dolor eu esse do velit non aliqua consectetur occaecat cupidatat. Deserunt sint cillum do duis duis. Consectetur id dolor nostrud qui laboris mollit elit consequat incididunt laboris velit. Ad enim minim cillum qui enim cillum nostrud nisi commodo aliquip non. Eu nulla duis consectetur commodo sunt nostrud est labore anim et ea aliqua aliqua magna.",
+      "imagen": "../assets/img/unsplash:bUgaIaZysH0.png",
+      "precio": 142
+    },
+    {
+      "id": 14,
+      "nombre": "Funda Atari",
+      "descripcion": "Laboris tempor veniam commodo ut voluptate adipisicing est velit reprehenderit esse. Non aute cillum nisi dolor eu esse do velit non aliqua consectetur occaecat cupidatat. Deserunt sint cillum do duis duis. Consectetur id dolor nostrud qui laboris mollit elit consequat incididunt laboris velit. Ad enim minim cillum qui enim cillum nostrud nisi commodo aliquip non. Eu nulla duis consectetur commodo sunt nostrud est labore anim et ea aliqua aliqua magna.",
+      "imagen": "../assets/img/unsplash:fMP-oCze3AY.png",
+      "precio": 12
+    },
+    {
+      "id": 15,
+      "nombre": "Reloj despertador Retro",
+      "descripcion": "Laboris tempor veniam commodo ut voluptate adipisicing est velit reprehenderit esse. Non aute cillum nisi dolor eu esse do velit non aliqua consectetur occaecat cupidatat. Deserunt sint cillum do duis duis. Consectetur id dolor nostrud qui laboris mollit elit consequat incididunt laboris velit. Ad enim minim cillum qui enim cillum nostrud nisi commodo aliquip non. Eu nulla duis consectetur commodo sunt nostrud est labore anim et ea aliqua aliqua magna.",
+      "imagen": "../assets/img/unsplash:jMT6BrgBuXU.png",
+      "precio": 88
+    },
+    {
+      "imagen": "../assets/img/unsplash:MxVkWPiJALs.png",
+      "nombre": "Realidad Virtual",
+      "categoria": "varios",
+      "precio": "896",
+      "descripcion": "Laboris tempor veniam commodo ut voluptate adipisicing est velit reprehenderit esse. Non aute cillum nisi dolor eu esse do velit non aliqua consectetur occaecat cupidatat. Deserunt sint cillum do duis duis. Consectetur id dolor nostrud qui laboris mollit elit consequat incididunt laboris velit. Ad enim minim cillum qui enim cillum nostrud nisi commodo aliquip non. Eu nulla duis consectetur commodo sunt nostrud est labore anim et ea aliqua aliqua magna.",
+      "id": 16
+    },
+    {
+      "id": 17,
+      "nombre": "Pikachu",
+      "descripcion": "Laboris tempor veniam commodo ut voluptate adipisicing est velit reprehenderit esse. Non aute cillum nisi dolor eu esse do velit non aliqua consectetur occaecat cupidatat. Deserunt sint cillum do duis duis. Consectetur id dolor nostrud qui laboris mollit elit consequat incididunt laboris velit. Ad enim minim cillum qui enim cillum nostrud nisi commodo aliquip non. Eu nulla duis consectetur commodo sunt nostrud est labore anim et ea aliqua aliqua magna.",
+      "imagen": "../assets/img/unsplash:r27umXAelDc.png",
+      "precio": 320
+    },
+    {
+      "id": 18,
+      "nombre": "Sonic",
+      "descripcion": "Laboris tempor veniam commodo ut voluptate adipisicing est velit reprehenderit esse. Non aute cillum nisi dolor eu esse do velit non aliqua consectetur occaecat cupidatat. Deserunt sint cillum do duis duis. Consectetur id dolor nostrud qui laboris mollit elit consequat incididunt laboris velit. Ad enim minim cillum qui enim cillum nostrud nisi commodo aliquip non. Eu nulla duis consectetur commodo sunt nostrud est labore anim et ea aliqua aliqua magna.",
+      "imagen": "../assets/img/unsplash:sYVY_ZKwaxU.png",
+      "precio": 148
+    }
+  ]
+}

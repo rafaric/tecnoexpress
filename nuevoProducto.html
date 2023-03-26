@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/index.css" />
+
     <link rel="stylesheet" href="./assets/css/addProduct.css" />
     <title>E-commerce - Agregar Producto</title>
   </head>
@@ -20,7 +21,7 @@
     </header>
     <main>
       <h2>Agregar nuevo producto</h2>
-      <form action="" class="form__add_product">
+      <form class="form__add_product" id="formulario">
         <input
           type="text"
           name="imagen"
@@ -81,7 +82,7 @@
               name="Mensaje"
               placeholder="Escribe tu mensaje"
             />
-            <button type="submit">Enviar Mensaje</button>
+            <button>Enviar Mensaje</button>
           </form>
         </div>
       </div>
@@ -98,5 +99,12 @@
         <a href="https://www.github.com/rafaric">Github</a>
       </div>
     </footer>
+    <script src="./service/addproducto.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"
+      integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
   </body>
 </html>

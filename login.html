@@ -19,14 +19,14 @@
       <div class="header__titulo">Login</div>
     </header>
     <main>
-      <section class="login">
+      <form class="login" id="formulario">
         <p class="login__titulo">Iniciar Sesión</p>
         <input
           class="login__input"
-          type="text"
-          name="nombre"
-          id="nombre"
-          placeholder="Ingrese Usuario"
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Ingrese correo electronico"
         />
         <input
           class="login__input"
@@ -35,8 +35,8 @@
           id="password"
           placeholder="Ingrese contraseña"
         />
-        <a class="login__button" href="./productos.html">Entrar</a>
-      </section>
+        <button class="login__button">Entrar</button>
+      </form>
     </main>
     <footer>
       <div class="footer__conten">
@@ -78,5 +78,6 @@
         <a href="https://www.github.com/rafaric">Github</a>
       </div>
     </footer>
+    <script src="./service/login.js"></script>
   </body>
 </html>

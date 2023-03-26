@@ -1,5 +1,12 @@
+.main__titulo {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
 .main__titulo_button {
   margin-top: 2rem;
+  text-decoration: none;
 }
 
 .main__productos {
@@ -30,6 +37,11 @@
   transition: all 500ms ease-in;
 }
 
+.main__productos_card_imagen:hover {
+  transform: scale(1.08);
+  transition: all 500ms ease-in;
+}
+
 .main__prductos_card_imagen-botones {
   position: absolute;
 
@@ -48,7 +60,7 @@
 
 }
 
-.main__prductos_card_imagen-botones>svg:nth-of-type(2):hover {
+.main__prductos_card_imagen-botones>a>svg:hover {
   filter: invert(75%) sepia(80%) saturate(439%) hue-rotate(150deg) brightness(100%) contrast(111%);
 
 
